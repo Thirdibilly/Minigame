@@ -44,7 +44,7 @@ def run_hangman(word):
                 success = True
                 blank_word = word
         else:
-            print(f"Not a valid guess.")    
+            print("Not a valid guess.")
         hangman_state = display_hangman(tries)
         print(f"{hangman_state}\n{blank_word}\n")
     if success:
